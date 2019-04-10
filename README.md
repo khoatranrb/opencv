@@ -7,3 +7,4 @@
             cv2.elipse()
             cv2.retangle()
             cv2.circle()
+            cv2.putText()
