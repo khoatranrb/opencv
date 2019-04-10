@@ -43,6 +43,7 @@ print("done")
 # img=cv2.rectangle(img,(10,10),(40,40),(0,255,0),2)
 # img=cv2.circle(img,(256,256),50,(0,0,255),3)
 # img=cv2.ellipse(img,(256,256),(50,100),0,0,180,100,-1)
+#img=cv2.putText(img,'KHOA',(20,490),font,2,(255,255,255),2,cv2.LINE_AA)
 cv2.imshow('result', img),cv2.imshow('result2', img2) ,cv2.waitKey(0)
 
 # cv2.namedWindow("image")
